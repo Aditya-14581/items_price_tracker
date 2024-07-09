@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "667a4fa7a400b9529b873fcb_6423c1a2-3f73-4a0d-918e-3284b03f9b16",
+  "id": "Home_sendItems",
+  "unpublishedCollection": {
+    "name": "sendItems",
+    "pageId": "Home",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "667a4fa7a400b9529b873fcb_0e47cabb-22ac-42a7-b2b1-880af851c8fd",
+  "id": "Home_fetchTodayItems",
+  "unpublishedCollection": {
+    "name": "fetchTodayItems",
+    "pageId": "Home",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

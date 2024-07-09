@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "667a4fa7a400b9529b873fcb_4085cdef-0255-4a18-bca6-c04bdfc29953",
+  "id": "Home_formDataReadOnlyFields",
+  "unpublishedCollection": {
+    "name": "formDataReadOnlyFields",
+    "pageId": "Home",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

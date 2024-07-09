@@ -1,0 +1,55 @@
+{
+  "appIsExample": false,
+  "appLayout": {
+    "type": "MOBILE"
+  },
+  "applicationDetail": {
+    "navigationSetting": {
+      "colorStyle": "light",
+      "itemStyle": "text",
+      "logoAssetId": "",
+      "logoConfiguration": "logoAndApplicationTitle",
+      "navStyle": "stacked",
+      "orientation": "top",
+      "position": "static",
+      "showNavbar": false,
+      "showSignIn": true
+    }
+  },
+  "applicationVersion": 2,
+  "collapseInvisibleWidgets": true,
+  "color": "#F3F1C7",
+  "embedSetting": {
+    "height": "720px",
+    "showNavigationBar": false,
+    "width": "1024px"
+  },
+  "evaluationVersion": 2,
+  "icon": "bar-graph",
+  "pages": [
+    {
+      "id": "Home",
+      "isDefault": false
+    },
+    {
+      "id": "Login_Page",
+      "isDefault": true
+    }
+  ],
+  "unpublishedAppLayout": {
+    "type": "MOBILE"
+  },
+  "unpublishedApplicationDetail": {
+    "navigationSetting": {
+      "colorStyle": "light",
+      "itemStyle": "text",
+      "logoAssetId": "",
+      "logoConfiguration": "logoAndApplicationTitle",
+      "navStyle": "stacked",
+      "orientation": "top",
+      "position": "static",
+      "showNavbar": false,
+      "showSignIn": true
+    }
+  }
+}

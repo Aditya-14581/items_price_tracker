@@ -1,0 +1,371 @@
+{
+  "animateLoading": true,
+  "autoGenerateForm": true,
+  "backgroundColor": "#fff",
+  "borderColor": "#E0DEDE",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderWidth": "2",
+  "bottomRow": 65,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "childStylesheet": {
+    "ARRAY": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "cellBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "cellBoxShadow": "none"
+    },
+    "CHECKBOX": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+    },
+    "CURRENCY_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "DATEPICKER": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "EMAIL_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "MULTILINE_TEXT_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "MULTISELECT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "NUMBER_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "OBJECT": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "cellBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "cellBoxShadow": "none"
+    },
+    "PASSWORD_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "PHONE_NUMBER_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "RADIO_GROUP": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "boxShadow": "none"
+    },
+    "SELECT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "SWITCH": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "boxShadow": "none"
+    },
+    "TEXT_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    }
+  },
+  "disabledWhenInvalid": true,
+  "displayName": "JSON Form",
+  "dynamicBindingPathList": [
+    {
+      "key": "boxShadow"
+    },
+    {
+      "key": "submitButtonStyles.borderRadius"
+    },
+    {
+      "key": "resetButtonStyles.buttonColor"
+    },
+    {
+      "key": "resetButtonStyles.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.cellBorderRadius"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "submitButtonStyles.buttonColor"
+    },
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "schema.__root_schema__.children.xn___79_Frozen_Corn______5p1bb21ayfssd80a0g5a.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.xn___79_Frozen_Corn______5p1bb21ayfssd80a0g5a.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.xn___79_Frozen_Corn______5p1bb21ayfssd80a0g5a.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.xn___95_Papaya____ekz6da55a8a.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.xn___95_Papaya____ekz6da55a8a.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.xn___95_Papaya____ekz6da55a8a.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.xn___74_Chikoo____eezrd66a9a.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.xn___74_Chikoo____eezrd66a9a.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.xn___74_Chikoo____eezrd66a9a.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.xn___80_Frozen_Peas__shelled_________832dc47dhb4hu0ad5f9cxqf9wtbg6bh.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.xn___80_Frozen_Peas__shelled_________832dc47dhb4hu0ad5f9cxqf9wtbg6bh.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.xn___80_Frozen_Peas__shelled_________832dc47dhb4hu0ad5f9cxqf9wtbg6bh.borderRadius"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "submitButtonStyles.iconAlign"
+    },
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onSubmit"
+    }
+  ],
+  "fieldLimitExceeded": false,
+  "fixedFooter": true,
+  "flexVerticalAlignment": "start",
+  "hideCard": false,
+  "iconSVG": "https://appcdn.appsmith.com/static/media/icon.34c54aae7fdde5e91750190831917417.svg",
+  "isDeprecated": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "6n5cse6pf6",
+  "leftColumn": 4,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 92,
+  "mobileLeftColumn": 12,
+  "mobileRightColumn": 37,
+  "mobileTopRow": 51,
+  "needsErrorInfo": false,
+  "onCanvasUI": {
+    "disableParentSelection": false,
+    "focusBGCSSVar": "--on-canvas-ui-widget-focus",
+    "focusColorCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
+  },
+  "onSubmit": "{{submitFormData.submitForm(JSONForm3.formData);\nformDataReadOnlyFields.generateReadOnlyFields();}}",
+  "originalBottomRow": 65,
+  "originalTopRow": 16,
+  "parentColumnSpace": 6.84375,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "resetButtonLabel": "",
+  "resetButtonStyles": {
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "boxShadow": "none",
+    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "buttonVariant": "SECONDARY"
+  },
+  "responsiveBehavior": "fill",
+  "rightColumn": 60,
+  "schema": {
+    "__root_schema__": {
+      "accessor": "__root_schema__",
+      "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(JSONForm3.sourceData, JSONForm3.formData, JSONForm3.fieldState)}}",
+      "boxShadow": "none",
+      "cellBorderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(JSONForm3.sourceData, JSONForm3.formData, JSONForm3.fieldState)}}",
+      "cellBoxShadow": "none",
+      "children": {
+        "xn___74_Chikoo____eezrd66a9a": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(JSONForm3.sourceData, JSONForm3.formData, JSONForm3.fieldState)}}",
+          "accessor": "#74_Chikoo/चीकू  ",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(JSONForm3.sourceData, JSONForm3.formData, JSONForm3.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "null",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData[\"#74_Chikoo/चीकू  \"]))(JSONForm3.sourceData, JSONForm3.formData, JSONForm3.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "xn___74_Chikoo____eezrd66a9a",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "74 Chikoo चीकू",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "#74_Chikoo/चीकू  ",
+          "position": 2
+        },
+        "xn___79_Frozen_Corn______5p1bb21ayfssd80a0g5a": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(JSONForm3.sourceData, JSONForm3.formData, JSONForm3.fieldState)}}",
+          "accessor": "#79_Frozen Corn/जमी हुई मकई  ",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(JSONForm3.sourceData, JSONForm3.formData, JSONForm3.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "null",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData[\"#79_Frozen Corn/जमी हुई मकई  \"]))(JSONForm3.sourceData, JSONForm3.formData, JSONForm3.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "xn___79_Frozen_Corn______5p1bb21ayfssd80a0g5a",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "79 Frozen Corn जमी हुई मकई",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "#79_Frozen Corn/जमी हुई मकई  ",
+          "position": 2
+        },
+        "xn___80_Frozen_Peas__shelled_________832dc47dhb4hu0ad5f9cxqf9wtbg6bh": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(JSONForm3.sourceData, JSONForm3.formData, JSONForm3.fieldState)}}",
+          "accessor": "#80_Frozen Peas (shelled)/छिली हुई जमी हुई मटर  ",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(JSONForm3.sourceData, JSONForm3.formData, JSONForm3.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "null",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData[\"#80_Frozen Peas (shelled)/छिली हुई जमी हुई मटर  \"]))(JSONForm3.sourceData, JSONForm3.formData, JSONForm3.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "xn___80_Frozen_Peas__shelled_________832dc47dhb4hu0ad5f9cxqf9wtbg6bh",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "80 Frozen Peas Shelled छिली हुई जमी हुई मटर",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "#80_Frozen Peas (shelled)/छिली हुई जमी हुई मटर  ",
+          "position": 3
+        },
+        "xn___95_Papaya____ekz6da55a8a": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(JSONForm3.sourceData, JSONForm3.formData, JSONForm3.fieldState)}}",
+          "accessor": "#95_Papaya/पपीता  ",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(JSONForm3.sourceData, JSONForm3.formData, JSONForm3.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "null",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData[\"#95_Papaya/पपीता  \"]))(JSONForm3.sourceData, JSONForm3.formData, JSONForm3.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "xn___95_Papaya____ekz6da55a8a",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "95 Papaya पपीता",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "#95_Papaya/पपीता  ",
+          "position": 1
+        }
+      },
+      "dataType": "object",
+      "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData))(JSONForm3.sourceData, JSONForm3.formData, JSONForm3.fieldState)}}",
+      "fieldType": "Object",
+      "identifier": "__root_schema__",
+      "isCustomField": false,
+      "isDisabled": false,
+      "isRequired": false,
+      "isVisible": true,
+      "label": "",
+      "labelTextSize": "0.875rem",
+      "originalIdentifier": "__root_schema__",
+      "position": -1,
+      "sourceData": {
+        "#10_Tamarind/इमली  ": 0,
+        "#112_Swiss Chard/स्विस चार्ड  ": 0,
+        "#11_Karela (Bitter Gourd)/करेला  ": 0,
+        "#12_Lauki (Bottle Gourd)/लौकी  ": 0,
+        "#19_Zucchini/ज़ुकीनी  ": 0,
+        "#65_Banana/केला  ": 0,
+        "#66_Barbados Cherry/बारबाडोस चेरी  ": 0,
+        "#74_Chikoo/चीकू  ": 0,
+        "#76_Dussheri Mango/दशहरी आम  ": 0,
+        "#78_Fresh Coriander/ताज़ा धनिया  ": 0,
+        "#79_Frozen Corn/जमी हुई मकई  ": 0,
+        "#80_Frozen Peas (shelled)/छिली हुई जमी हुई मटर  ": 0,
+        "#81_Frozen Strawberry/जमी हुई स्ट्रॉबेरी  ": 0,
+        "#82_Green Tomato/हरा टमाटर  ": 0,
+        "#83_Guava/अमरूद  ": 0,
+        "#84_Hybrid Tomato/हाइब्रिड टमाटर  ": 0,
+        "#86_Kesar Mango/केसर आम  ": 0,
+        "#87_Leelwe/लीलवे  ": 0,
+        "#88_Lettuce/लेटस्‌टु": 0,
+        "#89_Lime/नींबू  ": 0,
+        "#92_Mogri/मोगरी  ": 0,
+        "#9_Kakdi desi/देसी ककड़ी": 0,
+        "Down Payment (POS)": 0,
+        "Standard delivery": 0
+      }
+    }
+  },
+  "scrollContents": true,
+  "shouldScrollContents": true,
+  "showReset": false,
+  "sourceData": "{{fetchTodayItems.fetchItemsList.data}}",
+  "submitButtonLabel": "Submit",
+  "submitButtonStyles": {
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
+    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "buttonVariant": "PRIMARY",
+    "iconAlign": "left",
+    "iconName": "confirm",
+    "placement": "CENTER"
+  },
+  "tags": [
+    "Suggested",
+    "Layout"
+  ],
+  "thumbnailSVG": "https://appcdn.appsmith.com/static/media/thumbnail.1092bbfe332a9ea2da2aa7e3efd01db2.svg",
+  "title": "Vegetables List",
+  "topRow": 16,
+  "type": "JSON_FORM_WIDGET",
+  "useSourceData": true,
+  "version": 1,
+  "widgetId": "dfo6ion53m",
+  "widgetName": "JSONForm3"
+}
