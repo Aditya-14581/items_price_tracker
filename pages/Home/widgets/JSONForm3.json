@@ -5,7 +5,7 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "2",
-  "bottomRow": 58,
+  "bottomRow": 59,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "childStylesheet": {
     "ARRAY": {
@@ -185,8 +185,8 @@
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
   "onSubmit": "{{submitFormData.submitForm(JSONForm3.formData);\nformDataReadOnlyFields.generateReadOnlyFields();}}",
-  "originalBottomRow": 58,
-  "originalTopRow": 16,
+  "originalBottomRow": 59,
+  "originalTopRow": 17,
   "parentColumnSpace": 6.84375,
   "parentId": "0",
   "parentRowSpace": 10,
@@ -332,7 +332,7 @@
   ],
   "thumbnailSVG": "https://appcdn.appsmith.com/static/media/thumbnail.1092bbfe332a9ea2da2aa7e3efd01db2.svg",
   "title": "Vegetables List",
-  "topRow": 16,
+  "topRow": 17,
   "type": "JSON_FORM_WIDGET",
   "useSourceData": true,
   "version": 1,

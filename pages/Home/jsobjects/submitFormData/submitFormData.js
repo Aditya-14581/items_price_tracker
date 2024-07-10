@@ -50,7 +50,11 @@ export default {
         for (const productName of Object.keys(updatedPrices)) {
           const price = updatedPrices[productName];
           console.log("Updating price for:", productName, "with price:", price);
-
+					 // Validate if price is a number
+						if (typeof price !== 'number' || isNaN(price)) {
+							console.warn(`Invalid price (${price}) for product ${productName}. Skipping update.`);
+							continue; // Skip this product if price is not a valid number
+						}
           // Check if productName exists in productNames mapping
           const productId = productNames[productName];
           if (!productId) {

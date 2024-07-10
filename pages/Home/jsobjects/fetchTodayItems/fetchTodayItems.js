@@ -56,7 +56,6 @@ export default {
               headers: {
                 'Content-Type': 'application/json',
                 Authorization: userToken,
-								// Authorization: 'erhbgehjrbg',
               },
               body: JSON.stringify(newData)
             });
@@ -92,7 +91,6 @@ export default {
             throw new Error("HTTP Error: " + response.status);
           }
           const data = await response.json();
-
           if (data.items.length === 0) {
             return null; // Indicate no products found
           }
@@ -100,7 +98,10 @@ export default {
           const productsObject = {};
           data.items.forEach(item => {
             const productName = productNames[item.type_id] || `Unknown Product (${item.type_id})`;
-            productsObject[productName] = null;
+            // productsObject[productName] = Number(0);
+						// console.log("type",typeof productsObject[productName] );
+						// productsObject[productName] = 0;
+						productsObject[productName] = 0; // Adjust as per your data structure
           });
 
           console.log("Fetched Products Object:", productsObject);
