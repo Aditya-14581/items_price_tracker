@@ -1,6 +1,6 @@
 export default {
   fetchMandiNames() {
-    return fetch("https://35.154.64.184/warehouses")
+    return fetch("https://api.odoo.farmd.in//warehouses")
       .then(response => {
         if (!response.ok) {
           throw new Error("HTTP Error: " + response.status);

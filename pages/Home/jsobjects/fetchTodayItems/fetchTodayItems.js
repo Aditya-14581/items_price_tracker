@@ -21,7 +21,7 @@ export default {
     const fetchProductNames = async () => {
       if (storedUserId) {
         try {
-          const response = await fetch('https://35.154.64.184/products');
+          const response = await fetch('https://api.odoo.farmd.in//products');
           if (!response.ok) {
             throw new Error('Failed to fetch product names');
           }

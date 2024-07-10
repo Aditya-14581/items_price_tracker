@@ -5,7 +5,7 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "2",
-  "bottomRow": 65,
+  "bottomRow": 58,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "childStylesheet": {
     "ARRAY": {
@@ -118,40 +118,31 @@
       "key": "sourceData"
     },
     {
-      "key": "schema.__root_schema__.children.xn___79_Frozen_Corn______5p1bb21ayfssd80a0g5a.defaultValue"
-    },
-    {
-      "key": "schema.__root_schema__.children.xn___79_Frozen_Corn______5p1bb21ayfssd80a0g5a.accentColor"
-    },
-    {
-      "key": "schema.__root_schema__.children.xn___79_Frozen_Corn______5p1bb21ayfssd80a0g5a.borderRadius"
-    },
-    {
-      "key": "schema.__root_schema__.children.xn___95_Papaya____ekz6da55a8a.defaultValue"
-    },
-    {
-      "key": "schema.__root_schema__.children.xn___95_Papaya____ekz6da55a8a.accentColor"
-    },
-    {
-      "key": "schema.__root_schema__.children.xn___95_Papaya____ekz6da55a8a.borderRadius"
-    },
-    {
       "key": "schema.__root_schema__.children.xn___74_Chikoo____eezrd66a9a.defaultValue"
-    },
-    {
-      "key": "schema.__root_schema__.children.xn___74_Chikoo____eezrd66a9a.accentColor"
     },
     {
       "key": "schema.__root_schema__.children.xn___74_Chikoo____eezrd66a9a.borderRadius"
     },
     {
+      "key": "schema.__root_schema__.children.xn___74_Chikoo____eezrd66a9a.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.xn___95_Papaya____ekz6da55a8a.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.xn___95_Papaya____ekz6da55a8a.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.xn___95_Papaya____ekz6da55a8a.accentColor"
+    },
+    {
       "key": "schema.__root_schema__.children.xn___80_Frozen_Peas__shelled_________832dc47dhb4hu0ad5f9cxqf9wtbg6bh.defaultValue"
     },
     {
-      "key": "schema.__root_schema__.children.xn___80_Frozen_Peas__shelled_________832dc47dhb4hu0ad5f9cxqf9wtbg6bh.accentColor"
+      "key": "schema.__root_schema__.children.xn___80_Frozen_Peas__shelled_________832dc47dhb4hu0ad5f9cxqf9wtbg6bh.borderRadius"
     },
     {
-      "key": "schema.__root_schema__.children.xn___80_Frozen_Peas__shelled_________832dc47dhb4hu0ad5f9cxqf9wtbg6bh.borderRadius"
+      "key": "schema.__root_schema__.children.xn___80_Frozen_Peas__shelled_________832dc47dhb4hu0ad5f9cxqf9wtbg6bh.accentColor"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
@@ -194,7 +185,7 @@
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
   "onSubmit": "{{submitFormData.submitForm(JSONForm3.formData);\nformDataReadOnlyFields.generateReadOnlyFields();}}",
-  "originalBottomRow": 65,
+  "originalBottomRow": 58,
   "originalTopRow": 16,
   "parentColumnSpace": 6.84375,
   "parentId": "0",
@@ -236,28 +227,7 @@
           "label": "74 Chikoo चीकू",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "#74_Chikoo/चीकू  ",
-          "position": 2
-        },
-        "xn___79_Frozen_Corn______5p1bb21ayfssd80a0g5a": {
-          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(JSONForm3.sourceData, JSONForm3.formData, JSONForm3.fieldState)}}",
-          "accessor": "#79_Frozen Corn/जमी हुई मकई  ",
-          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(JSONForm3.sourceData, JSONForm3.formData, JSONForm3.fieldState)}}",
-          "boxShadow": "none",
-          "children": {},
-          "dataType": "null",
-          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData[\"#79_Frozen Corn/जमी हुई मकई  \"]))(JSONForm3.sourceData, JSONForm3.formData, JSONForm3.fieldState)}}",
-          "fieldType": "Text Input",
-          "iconAlign": "left",
-          "identifier": "xn___79_Frozen_Corn______5p1bb21ayfssd80a0g5a",
-          "isCustomField": false,
-          "isDisabled": false,
-          "isRequired": false,
-          "isSpellCheck": false,
-          "isVisible": true,
-          "label": "79 Frozen Corn जमी हुई मकई",
-          "labelTextSize": "0.875rem",
-          "originalIdentifier": "#79_Frozen Corn/जमी हुई मकई  ",
-          "position": 2
+          "position": 0
         },
         "xn___80_Frozen_Peas__shelled_________832dc47dhb4hu0ad5f9cxqf9wtbg6bh": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(JSONForm3.sourceData, JSONForm3.formData, JSONForm3.fieldState)}}",
@@ -278,7 +248,7 @@
           "label": "80 Frozen Peas Shelled छिली हुई जमी हुई मटर",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "#80_Frozen Peas (shelled)/छिली हुई जमी हुई मटर  ",
-          "position": 3
+          "position": 2
         },
         "xn___95_Papaya____ekz6da55a8a": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(JSONForm3.sourceData, JSONForm3.formData, JSONForm3.fieldState)}}",
