@@ -5,7 +5,7 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "2",
-  "bottomRow": 59,
+  "bottomRow": 66,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "childStylesheet": {
     "ARRAY": {
@@ -143,6 +143,15 @@
     },
     {
       "key": "schema.__root_schema__.children.xn___80_Frozen_Peas__shelled_________832dc47dhb4hu0ad5f9cxqf9wtbg6bh.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.xn___112_Swiss_Chard_____z01bqg6n4d4cb8nya81bha.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.xn___112_Swiss_Chard_____z01bqg6n4d4cb8nya81bha.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.xn___112_Swiss_Chard_____z01bqg6n4d4cb8nya81bha.accentColor"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
@@ -185,7 +194,7 @@
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
   "onSubmit": "{{submitFormData.submitForm(JSONForm3.formData);\nformDataReadOnlyFields.generateReadOnlyFields();}}",
-  "originalBottomRow": 59,
+  "originalBottomRow": 66,
   "originalTopRow": 17,
   "parentColumnSpace": 6.84375,
   "parentId": "0",
@@ -208,6 +217,28 @@
       "cellBorderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(JSONForm3.sourceData, JSONForm3.formData, JSONForm3.fieldState)}}",
       "cellBoxShadow": "none",
       "children": {
+        "xn___112_Swiss_Chard_____z01bqg6n4d4cb8nya81bha": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(JSONForm3.sourceData, JSONForm3.formData, JSONForm3.fieldState)}}",
+          "accessor": "#112_Swiss Chard/स्विस चार्ड  ",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(JSONForm3.sourceData, JSONForm3.formData, JSONForm3.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData[\"#112_Swiss Chard/स्विस चार्ड  \"]))(JSONForm3.sourceData, JSONForm3.formData, JSONForm3.fieldState)}}",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "xn___112_Swiss_Chard_____z01bqg6n4d4cb8nya81bha",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "112 Swiss Chard स्विस चार्ड",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "#112_Swiss Chard/स्विस चार्ड  ",
+          "position": 3,
+          "sourceData": 0
+        },
         "xn___74_Chikoo____eezrd66a9a": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(JSONForm3.sourceData, JSONForm3.formData, JSONForm3.fieldState)}}",
           "accessor": "#74_Chikoo/चीकू  ",
@@ -216,7 +247,7 @@
           "children": {},
           "dataType": "null",
           "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData[\"#74_Chikoo/चीकू  \"]))(JSONForm3.sourceData, JSONForm3.formData, JSONForm3.fieldState)}}",
-          "fieldType": "Text Input",
+          "fieldType": "Number Input",
           "iconAlign": "left",
           "identifier": "xn___74_Chikoo____eezrd66a9a",
           "isCustomField": false,
@@ -237,7 +268,7 @@
           "children": {},
           "dataType": "null",
           "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData[\"#80_Frozen Peas (shelled)/छिली हुई जमी हुई मटर  \"]))(JSONForm3.sourceData, JSONForm3.formData, JSONForm3.fieldState)}}",
-          "fieldType": "Text Input",
+          "fieldType": "Number Input",
           "iconAlign": "left",
           "identifier": "xn___80_Frozen_Peas__shelled_________832dc47dhb4hu0ad5f9cxqf9wtbg6bh",
           "isCustomField": false,
@@ -258,7 +289,7 @@
           "children": {},
           "dataType": "null",
           "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData[\"#95_Papaya/पपीता  \"]))(JSONForm3.sourceData, JSONForm3.formData, JSONForm3.fieldState)}}",
-          "fieldType": "Text Input",
+          "fieldType": "Number Input",
           "iconAlign": "left",
           "identifier": "xn___95_Papaya____ekz6da55a8a",
           "isCustomField": false,
