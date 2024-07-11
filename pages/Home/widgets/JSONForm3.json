@@ -203,7 +203,7 @@
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
   "onSubmit": "{{submitFormData.submitForm(JSONForm3.formData);\nformDataReadOnlyFields.generateReadOnlyFields();}}",
-  "originalBottomRow": 81,
+  "originalBottomRow": 74,
   "originalTopRow": 18,
   "parentColumnSpace": 6.84375,
   "parentId": "0",
