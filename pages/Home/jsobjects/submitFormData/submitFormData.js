@@ -51,7 +51,7 @@ export default {
           const price = updatedPrices[productName];
           console.log("Updating price for:", productName, "with price:", price);
 					 // Validate if price is a number
-						if (typeof price !== 'number' || isNaN(price) || price===0) {
+						if (typeof price !== 'number' || price===0) {
 							console.warn(`Invalid price (${price}) for product ${productName}. Skipping update.`);
 							continue; // Skip this product if price is not a valid number
 						}

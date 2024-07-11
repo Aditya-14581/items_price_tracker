@@ -90,7 +90,7 @@ export default {
           if (!response.ok) {
             throw new Error("HTTP Error: " + response.status);
           }
-          const data = await response.json();
+          const data = await response.json(); 
           if (data.items.length === 0) {
             return null; // Indicate no products found
           }
