@@ -1,7 +1,7 @@
 export default {
   async fetchItemsList() {
-    const userToken = appsmith.store.userToken;
-    const storedUserId = appsmith.store.userId;
+    const userToken = appsmith.store.userToken;//Auth Token
+    const storedUserId = appsmith.store.userId;//Record id of the login user in the user collection
     if (!storedUserId) {
       navigateTo("Login_Page");
       return;
@@ -18,6 +18,7 @@ export default {
     const filterToday = `created >= "${today} 00:00:00"`;
     const filterYesterday = `created >= "${yesterday} 00:00:00" && created < "${today} 00:00:00"`;
 
+		//Fetching productnames from backend
     const fetchProductNames = async () => {
       if (storedUserId) {
         try {
@@ -35,6 +36,7 @@ export default {
       }
     };
 
+		//Enabling yeasterdays enabled products if there are no enabled products for today
     const createRecordsForYesterday = async (productNames, yesterdayProductIds) => {
       if (storedUserId) {
         try {
@@ -81,6 +83,7 @@ export default {
       }
     };
 
+		//Fetching enabled products from PocketBase
     const fetchProducts = async (productNames, filter) => {
       if (storedUserId) {
         try {
@@ -98,10 +101,7 @@ export default {
           const productsObject = {};
           data.items.forEach(item => {
             const productName = productNames[item.type_id] || `Unknown Product (${item.type_id})`;
-            // productsObject[productName] = Number(0);
-						// console.log("type",typeof productsObject[productName] );
-						// productsObject[productName] = 0;
-						productsObject[productName] = 0; // Adjust as per your data structure
+						productsObject[productName] = 0; 
           });
 
           console.log("Fetched Products Object:", productsObject);

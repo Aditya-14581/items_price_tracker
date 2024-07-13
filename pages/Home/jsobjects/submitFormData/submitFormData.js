@@ -3,8 +3,6 @@ export default {
 		const userToken = appsmith.store.userToken;
 		const userId = appsmith.store.userId;
     const selectedStore = appsmith.store.storeName;
-    console.log("Selected Store:", selectedStore);
-    console.log("Updated Prices:", updatedPrices); // Log the incoming form data
 
     // Store the submitted data
     storeValue("submittedData", updatedPrices);
@@ -22,8 +20,6 @@ export default {
         Object.entries(data).forEach(([id, name]) => {
           reversedProductNames[name] = id;
         });
-
-        console.log("Reversed Product Names:", reversedProductNames); // Log reversed product names
         return reversedProductNames;
       } catch (error) {
         console.error('Error fetching product names:', error);
@@ -49,7 +45,6 @@ export default {
         // Iterate through each productName in updatedPrices
         for (const productName of Object.keys(updatedPrices)) {
           const price = updatedPrices[productName];
-          console.log("Updating price for:", productName, "with price:", price);
 					 // Validate if price is a number
 						if (typeof price !== 'number' || price===0) {
 							console.warn(`Invalid price (${price}) for product ${productName}. Skipping update.`);
@@ -73,7 +68,6 @@ export default {
 
             // Find the product entry by matching type_Id
             const productEntry = data.items.find(item => item.type_id.toString() === productId);
-            console.log("Found product entry:", productEntry);
 
             if (productEntry) {
               // Prepare the updated data object
@@ -89,8 +83,6 @@ export default {
               // Ensure user IDs are unique
               const updatedUserArray = [...new Set([...existingUserArray, userId.toString()])];
               newData.user = updatedUserArray;
-
-              console.log("data", newData);
 
               // Check if there's already an entry for the selected mandi_id
               let existingMandiIndex = newData.entered_price.findIndex(item => item.mandi_id === selectedStore);
@@ -121,13 +113,10 @@ export default {
                 },
                 body: JSON.stringify(newData)
               });
-							
-							console.log("response", updateResponse);
 
               if (!updateResponse.ok) {
                 throw new Error('Failed to update product price');
               }
-              console.log(`Updated price for ${productName}`);
             } else {
               console.warn(`No record found for product ${productName} added today.`);
             }
@@ -143,7 +132,6 @@ export default {
 
     try {
       const productNames = await fetchProductNames();
-      console.log("Product Names:", updatedPrices); // Log the fetched product names
       await updatePricesInPocketBase(productNames);
       console.log("Prices updated successfully");
     } catch (error) {

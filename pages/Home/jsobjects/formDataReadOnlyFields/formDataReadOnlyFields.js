@@ -1,4 +1,5 @@
 export default {
+	//Read Only table after submitting the form
   generateReadOnlyFields: () => {
     const submittedData = appsmith.store.submittedData;
     const readOnlyFieldsArray = [];
